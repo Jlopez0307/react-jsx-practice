@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+div.container div.tweet-card{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 50px 100px 50px 100px;
+    margin: 0 50px 0 0;
+}
+
+div.container div.tweet-card ul.user-info{
+    position: relative;
+    bottom: 20px;
+    list-style: none;
+    width: 50%;
+}
+
+div.container div.tweet-card ul.user-info li.username {
+    font-size: 1.3em;
+}
+
+.sub-header {
+    font-size: 1em;
+    color: rgb(154, 154, 154);
+    text-align: left;
+}
+
+
+div.container div.tweet-card p.date {
+    text-align: left;
+    font-size: 1em;
+}
+div.container div.tweet-card p.msg {
+    text-align: left;
+    font-size: 2em;
+}
